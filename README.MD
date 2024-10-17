@@ -84,7 +84,3 @@ El script de Python navega por el sitio web, recopila información relevante sob
 ## Contribuciones
 
 Si deseas contribuir a este proyecto, siéntete libre de enviar un pull request o abrir un issue para discutir mejoras.
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo `LICENSE`.
