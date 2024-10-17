@@ -90,9 +90,6 @@ def ejecutar_scraping():
             driver.get(link)
             time.sleep(2)  # Esperar a que la página cargue
             
-            # Capturar y mostrar parte del HTML
-            html_content = driver.page_source  # Captura el HTML de la página actual
-            print(html_content[:1000])  # Imprime los primeros 1000 caracteres del HTML
             
             try:
                 nombre_detalle = driver.find_element(By.XPATH, "//h1[@class='ps-title']").text
