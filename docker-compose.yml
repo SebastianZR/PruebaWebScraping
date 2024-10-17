@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  scraping-app:
+    build:
+      context: ./app  # Ruta donde está el Dockerfile
+      dockerfile: Dockerfile  # Nombre del Dockerfile
+    volumes:
+      - ./app:/app  # Montar el directorio de la app en el contenedor
+    working_dir: /app  # Directorio de trabajo dentro del contenedor
